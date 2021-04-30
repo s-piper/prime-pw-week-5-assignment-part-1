@@ -50,3 +50,5 @@ console.log(`I now have ${me.shoeCount} shoes.`); //logs new count
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.favoriteColor = 'purple'; //adds new property and sets value
+console.log('An update about;', me); // logs object with new property and values
