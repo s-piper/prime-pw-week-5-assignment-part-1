@@ -31,8 +31,8 @@ console.log(fullName); //logs full name by combining two object properties
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
-
-
+console.log(me.favThreeFoods[0]); //should log first item in array; tacos
+console.log(me.favThreeFoods[1]); //should log second item in array; burgers
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
