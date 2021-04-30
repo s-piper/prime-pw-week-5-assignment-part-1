@@ -40,7 +40,9 @@ console.log(me.favThreeFoods[1]); //should log second item in array; burgers
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count.
 */
-
+console.log(`Current shoe count is ${me.shoeCount}`); //logs current shoes
+me.shoeCount++; //increased shoes by 1.
+console.log(`I now have ${me.shoeCount} shoes.`); //logs new count
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
